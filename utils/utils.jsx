@@ -184,6 +184,20 @@ export function notifyMe(title, body, channel, teamId, silent) {
             requireInteraction: false,
             silent,
             onClick: () => {
+                window.parent.postMessage(
+                    {
+                        type: 'dispatch-notification',
+                        message: {
+                            title,
+                            body,
+                            channel,
+                            teamId,
+                            silent,
+                        },
+                    },
+                    //window.location.origin
+                    "*"
+                );                
                 window.focus();
                 browserHistory.push(getChannelURL(channel, teamId));
             },

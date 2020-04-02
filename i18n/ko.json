@@ -2230,7 +2230,7 @@
   "intro_messages.GM": "{names}와 그룹 메시지의 시작입니다.\n개인 메시지나 여기서 공유된 파일들은 외부에서 보여지지 않습니다.",
   "intro_messages.group": "비공개 채널",
   "intro_messages.group_message": "This is the start of your direct message history with this teammate. Direct messages and files shared here are not shown to people outside this area.",
-  "intro_messages.invite": "{type}에 사용자 초대하기",
+  "intro_messages.invite": "팀에 사용자 초대하기",
   "intro_messages.inviteOthers": "팀에 사용자 초대하기",
   "intro_messages.noCreator": "{name} {type}입니다. 만들어진 날짜: {date}.",
   "intro_messages.offTopic": "This is the start of {display_name}, a channel for non-work-related conversations.",
